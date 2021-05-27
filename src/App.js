@@ -16,7 +16,7 @@ export default function App() {
       </header>
        
       <main>
-       <Dictionary defaultKeyword="monastry" />
+       <Dictionary defaultKeyword="yellow" />
       </main>
        
       <footer className="App-footer">
