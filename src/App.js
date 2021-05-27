@@ -1,25 +1,48 @@
-import logo from './logo.svg';
+import logo from "./SheCodes-logo.png";
+import Dictionary from "./Dictionary";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+export default function App() {
+ return (
+  <div className="App">
+   <div className="container">
+    <div className="card">
+     <div className="card-body">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <img src={logo}
+        className="img-fluid"
+        alt="SE logo"
+       />
       </header>
-    </div>
-  );
+       
+      <main>
+       <Dictionary defaultKeyword="cat" />
+      </main>
+       
+      <footer className="App-footer">
+       <small>
+        <strong>
+         <em>I made this</em>
+        </strong>  {""}
+        <a href="https://github.com/Sibidomaskuli/dictionary.git"
+         className="purple"
+         target="_blank"
+         rel='noreferrer'>
+         GitHub
+     </a>🌍
+     <a href="https://romantic-knuth-bc966b.netlify.app"
+         className="green"
+         target="_blank"
+         rel='noreferrer'>
+         {" "}
+     Netlify
+     </a>
+       </small>
+      </footer>
+     </div> {/*card-body*/}
+         
+    </div> {/*card*/}
+   </div> {/*container*/}
+  </div>
+ );
 }
-
-export default App;
