@@ -30,7 +30,7 @@ export default function App() {
          rel='noreferrer'>
          GitHub
      </a>🌍
-     <a href="https://romantic-knuth-bc966b.netlify.app"
+     <a href="https://nifty-wescoff-b7ace4.netlify.app/"
          className="green"
          target="_blank"
          rel='noreferrer'>
